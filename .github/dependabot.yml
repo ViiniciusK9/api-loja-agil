@@ -4,7 +4,7 @@ updates:
     directory: /
     schedule:
       interval: weekly
-    open-pull-requests: 5
+    open-pull-requests-limit: 5
     commit-message:
       prefix: build
       include: scope
@@ -17,6 +17,7 @@ updates:
         patterns: ['@nestjs/*']
       vitest:
         patterns: ['vitest', '@vitest/*']
+
   - package-ecosystem: github-actions
     directory: /
     schedule:
