@@ -1,7 +1,7 @@
 name: api-loja-agil
 
 services:
-  app: 
+  app:
     build:
       context: .
       dockerfile: Dockerfile.dev
