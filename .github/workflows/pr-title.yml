@@ -2,7 +2,7 @@ name: PR
 
 on:
   pull_request:
-  types: [opened, edited, synchronize, reopened]
+    types: [opened, edited, synchronize, reopened]
 
 permissions:
   pull_requests: read
